@@ -1,0 +1,4 @@
+title,summary,file_path,arxiv_id,author_full_name,author_title
+"Quantum Entanglement in Neural Networks","Study of entanglement-like properties within artificial neural networks.","paper1.pdf","arXiv:2401.01234","Alice Johnson","Dr."
+"Advances in Large Language Models","Overview of recent techniques improving LLMs in efficiency and accuracy.","paper2.pdf","arXiv:2403.04567","Michael Chen","Prof."
+"Transformer Architectures in Vision","Explores how transformer models outperform CNNs in vision tasks.","paper3.pdf","arXiv:2309.07891","Sara Williams","Dr."
