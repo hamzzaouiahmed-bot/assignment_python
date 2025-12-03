@@ -1,22 +1,11 @@
-<<<<<<< HEAD
 .env
 *.pkl
-__pycache__/
-=======
-
 *.log
 *.tmp
 *.cache
 *.DS_Store
 
-
 __pycache__/
 *.pyc
 
-
 .vscode/
-
-
-C:/Users/Wind10/AppData/
-C:/Users/Wind10/Documents/
->>>>>>> 885d38bb337978dfc3249d190136c438c6056a2f

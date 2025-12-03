@@ -1,22 +1,12 @@
-<<<<<<< HEAD
 google-generativeai
 pandas
 numpy
 scikit-learn
 python-dotenv
-=======
-<<<<<<< HEAD
-pandas
 sqlalchemy
 mariadb
 mongoengine
 requests
 beautifulsoup4
 lxml
-=======
-pandas==2.3.2
-numpy==1.26.4
-matplotlib==3.7.2
-
->>>>>>> 4dfded0873f17fd67aeb3e3c124e54d1cd93d79f
->>>>>>> 885d38bb337978dfc3249d190136c438c6056a2f
+matplotlib
