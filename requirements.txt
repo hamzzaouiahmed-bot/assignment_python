@@ -1,5 +1,20 @@
+<<<<<<< HEAD
 qdrant-client
 google-generativeai
 pandas
 numpy
 python-dotenv
+=======
+google-generativeai
+pandas
+numpy
+scikit-learn
+python-dotenv
+sqlalchemy
+mariadb
+mongoengine
+requests
+beautifulsoup4
+lxml
+matplotlib
+>>>>>>> 89779f1c9768fe7252f0cdd634bb9f545b154801

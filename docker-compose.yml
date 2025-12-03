@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: "3.9"
 
 services:
@@ -8,3 +9,78 @@ services:
       - "6333:6333"
     volumes:
       - ./qdrant_storage:/qdrant/storage
+=======
+<<<<<<< HEAD
+version: "3.9"
+
+services:
+  mariadb:
+    image: mariadb:latest
+    restart: always
+    container_name: assignment07_mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: ahmed123
+      MYSQL_DATABASE: assignment07
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+  mongodb:
+    image: mongo:latest
+    restart: always
+    container_name: assignment07_mongodb
+    ports:
+      - "27018:27017"
+    command: ["mongod", "--bind_ip_all", "--noauth"]
+    volumes:
+      - mongodb_data:/data/db
+
+
+volumes:
+  mariadb_data:
+  mongodb_data:
+=======
+<<<<<<< HEAD
+version: '3.8'
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: my_mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ahmed
+      MYSQL_DATABASE: assignment-5
+      MYSQL_USER: user
+      MYSQL_PASSWORD: ahmed
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  db_data:
+=======
+version: "3.9"
+
+services:
+  mongo_assignment:
+    image: mongo:6
+    container_name: mongo_assignment
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: Ahmed
+      MONGO_INITDB_ROOT_PASSWORD: "ahmed123"
+      MONGO_INITDB_DATABASE: AhmedDB
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
+>>>>>>> bda9d3a672d54558ad94da1bbb891f24b80447ef
+>>>>>>> 8393d2e6d30899ff74a4e8029bc744f944846dc6
+>>>>>>> 89779f1c9768fe7252f0cdd634bb9f545b154801
